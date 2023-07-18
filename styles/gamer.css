@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+    
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo p{
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+    padding-left: 20px;
+} 
+span{
+    color: #FF42A5;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar > ul{
+    text-decoration: none;
+    display: flex;
+   
+}
+
+.nav-bar li{
+    display: flex;
+    list-style: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 20px;
+    
+    
+}
+
+.nav-bar-without-icon{
+    display: flex;
+    margin-right: 25px;
+    padding-top: 18px;
+}
+
+.nav-bar .nav-bar-with-icon{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 10px;
+
+}
+
+.nav-bar-with-icon img{
+    padding-left: 15px;
+    width: 40px;
+}
