@@ -1,5 +1,9 @@
 @media screen and (max-width: 400px) {
 
+    body{
+        width: 100%;
+    }
+
     nav{
         padding: 20px;
         flex-direction: column;
@@ -47,5 +51,31 @@
         width: 20px;
         
     }
+
+    /* goat section responsive */
+
+    .goat{
+        flex-direction: column;
+    }
+
+    .goat-content{
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 20px;
+        
+    }
+    .goat-image{
+        width: 100%;
+        overflow: hidden;
+    }
+/* gamer section  */
+
+.gamer{
+    flex-direction: column;
+    padding: 10px;
+}
+.gamer img{
+    width: 100%;
+}
     
 }
