@@ -87,6 +87,7 @@ span{
     background-image: url(../images/Group\ 14.png);
     text-align: center;
     padding: 150px 0px 100px 0px;
+    flex-direction: column;
 }
 .goat-content h3{
     color: #0B0223;
@@ -148,6 +149,11 @@ span{
     margin-top: 30px;
     
 }
+
+.goat .goat-image{
+    width: 38%;
+    
+}
 /* gamer section styles */
 
 .gamer{
@@ -189,4 +195,142 @@ span{
     font-weight: 700;
 }
 
+/* card related styles */
+.card-section{
 
+    margin: 50px 0px 100px 0px;
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+    margin: 50px 150px;
+}
+.card-container img{
+    width: 250px;
+}
+.card-title{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card{
+    max-width: 250px;
+}
+
+.card-content span{
+   
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.card-content h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+.card-content{
+    text-align: center;
+}
+
+
+
+
+
+
+/* play related styles */
+.play-container{
+    display: flex;
+}
+
+.play-content{
+    width: 50%;
+    text-align: right;
+    margin-top: 150px;
+}
+
+.play-content span{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-content h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.play-image{
+ margin-left: 200px;;   
+}
+
+.play-image-1{
+    width: 500px;
+    height: auto;
+}
+.play-image .play-image-2{
+    position: relative;
+    bottom: 230px;
+    right: 120px;
+    width: 40%;
+}
+
+/* footer styles */
+.footer{
+    background-color: #0B0223;
+    padding: 100px;
+    align-items: center;
+    text-align: center;
+}
+.footer-nav li{
+    display: inline-flex;
+    padding: 20px;
+    align-items: flex-start;
+    gap: 60px;
+    color: #FFFFFF;
+    list-style: none;
+    margin-top: 15px;
+    
+}
+.footer-logo{
+    display: flex;
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 440px;  
+}
+.footer-logo > p{
+    color: #FFF;
+    padding-left: 20px;
+}
+
+.footer-nav > ul{
+    text-decoration: none;
+}
+
+.footer-icon img{
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.footer-terms li{
+    display: inline-flex;
+    padding: 15px;
+    align-items: flex-start;
+    gap: 60px;
+    color: #FFFFFF;
+    list-style: none;
+    font-size: 10px;
+    opacity: 0.5;
+}
+.footer > p{
+    color: #FFFFFF;
+    font-size: 10px;
+    opacity: 0.5;
+}
