@@ -119,8 +119,33 @@
 
 
 }
+
+/* career responsive */
+.career img{
+    width: 300px;
+}
+
+.career-content{
+    width: 100%;
+}
    
 
+/* games container responsive */
+
+
+.games-container-line-1{
+    grid-template-columns: repeat(2, 1fr);
+}
+.games-container{
+    align-items: center;
+}
+.games-logo > img{
+    width: 30px;
+}
+
+.games-logo > p{
+    font-size: 15px;
+}
 /* footer styles */
 
 .footer{
